@@ -11,6 +11,7 @@
   padding: 50% 0;
   /* padding controls height, will always be perfectly square regardless of width */
   position: relative;
+  opacity: 0.8;
 }
 
 .img-wrap img {
