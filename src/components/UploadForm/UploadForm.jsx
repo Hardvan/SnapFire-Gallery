@@ -40,7 +40,7 @@ const UploadForm = () => {
   return (
     <form>
       <label>
-        Password:{" "}
+        Password (for uploading permission):{" "}
         <input
           type="password"
           value={password}
