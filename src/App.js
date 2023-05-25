@@ -1,5 +1,6 @@
 import React from "react";
-import Title from "./components/Title";
+import "./App.css";
+import Title from "./components/Title/Title";
 
 function App() {
   return (
