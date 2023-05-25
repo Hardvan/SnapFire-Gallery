@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./UploadForm.css";
 import ProgressBar from "../ProgressBar/ProgressBar";
+import uploadPassword from "../../actualPassword.js";
 
 const UploadForm = () => {
   const [file, setFile] = useState(null);
@@ -26,7 +27,7 @@ const UploadForm = () => {
   const handlePasswordChange = (e) => {
     const enteredPassword = e.target.value;
 
-    if (enteredPassword === "thisisaverysecretpassword") {
+    if (enteredPassword === uploadPassword) {
       setAuthenticated(true);
       setError(null);
     } else {
