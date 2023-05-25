@@ -17,6 +17,6 @@ body {
 }
 
 /* Disable Scrollbar */
-:webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
