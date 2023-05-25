@@ -22,6 +22,7 @@ const UploadForm = () => {
   return (
     <form>
       <input type="file" accept="image/*" onChange={handleChange} />
+      <span>+</span>
       <div className="output">
         {/* If no file selected */}
         {error && <div className="error">{error}</div>}
