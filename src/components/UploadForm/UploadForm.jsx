@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "./UploadForm.css";
+import "./UploadForm.css";
 import ProgressBar from "../ProgressBar/ProgressBar";
 
 const UploadForm = () => {
@@ -40,7 +40,7 @@ const UploadForm = () => {
   return (
     <form>
       <label>
-        Password:
+        Password:{" "}
         <input
           type="password"
           value={password}
@@ -49,9 +49,14 @@ const UploadForm = () => {
       </label>
       {/* If authenticated, show upload form */}
       {authenticated && (
-        <label>
-          <input type="file" accept="image/*" onChange={handleChange} />
-          <span>+</span>
+        <label className="plus-label">
+          <input
+            className="plus-input"
+            type="file"
+            accept="image/*"
+            onChange={handleChange}
+          />
+          <span className="plus-span">+</span>
         </label>
       )}
       <div className="output">

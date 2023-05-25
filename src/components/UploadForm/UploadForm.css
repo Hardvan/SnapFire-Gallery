@@ -3,13 +3,7 @@ form {
   text-align: center;
 }
 
-label input {
-  height: 0;
-  width: 0;
-  opacity: 0;
-}
-
-label {
+.plus-label {
   display: block;
   width: 30px;
   height: 30px;
@@ -22,9 +16,15 @@ label {
   font-size: 24px;
 }
 
-label:hover {
+.plus-label:hover {
   background: var(--primary);
   color: white;
+}
+
+.plus-label input {
+  height: 0;
+  width: 0;
+  opacity: 0;
 }
 
 .output {
