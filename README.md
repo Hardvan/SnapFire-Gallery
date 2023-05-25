@@ -1,6 +1,6 @@
 # SnapFire Gallery
 
-SnapFire is a web application that allows users to upload and share images. It provides a simple and intuitive interface for uploading images, displaying them in a grid layout, and viewing them in a modal window. The application is built using React and integrates with Firebase for image storage and retrieval.
+SnapFire is a web application that allows users to upload and share images. It provides a simple and intuitive interface for uploading images, displaying them in a grid layout, and viewing them in a modal window. The application is built using React and integrates with Firebase for image storage and retrieval. The project is deployed using Cloudflare Pages.
 
 ## [Link to the Website](https://snapfire-gallery.pages.dev/)
 
